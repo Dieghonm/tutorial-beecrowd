@@ -1,5 +1,9 @@
 # Boas vindas ao repositório tutorial para a plataforma URI!
 
+Este repositório contém a solução dos exercícios tutoriais de nivel iniciante da plataforma URI.
+
+O objetivo é exemplificar como a plataforma trata a entrada e saída de dados.
+
 ## Plataforma URI ONLINE JUDGE
 [URI ONLINE JUDGE](https://www.urionlinejudge.com.br/)
 
