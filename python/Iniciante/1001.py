@@ -1,4 +1,4 @@
-# a, b, c = [int(x) for x in input().split(" ")]
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1001
 
 a = int(input())
 b = int(input())

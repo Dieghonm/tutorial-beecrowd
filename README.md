@@ -1,45 +1,58 @@
-**Contexto**
+# Boas vindas ao repositório tutorial para a plataforma URI!
 
-Algumas empresas utilizam, em suas entrevistas, desafios de **resolução de problemas** de programação, como Facebook, Amazon, Apple, Netflix, Google, e recentemente, a **FORD** fez um processo seletivo em que uma etapa da entrevista era um teste nesse formato.
+## Plataforma URI ONLINE JUDGE
+[URI ONLINE JUDGE](https://www.urionlinejudge.com.br/)
 
-Nesse sentido, venho apresentar a ferramenta utilizada para rodar esse desafio da FORD. Ela chama-se **URI ONLINE JUDGE (www.urionlinejudge.com.br)**, que logo menos passará a se chamar **beecrow** , pois agora essa plataforma faz parte de uma empresa independente e por isso mudará de nome. Nela contém diversos problemas com vários níveis de dificuldade e com muitos assuntos.
+Logo menos passará a se chamar **beecrow**, pois agora essa plataforma faz parte de uma empresa independente.
 
-**Problema**
+## O que é?
 
-Devido a dificuldade que muitas pessoas têm quando começam a utilizar a plataforma, o intuito aqui é explicar como ela funciona. Em outras palavras, será explicado tudo para que você inicie na plataforma com uma menor quantidade de dúvidas.
+Plataforma que disponibiliza desafios de programação, com um Juiz(Avaliador) que lhe responde se a sua solução esta correta.
+Além de permitir a realização de torneiros e maratonas.
 
-**Solução**
+Nela você encontrará diversos problemas com vários níveis de dificuldade e dos amis diversos assuntos.
+
+## Por que experimentar?
+
+Muitas empresas utilizam, em suas entrevistas, desafios de **resolução de problemas** de programação, como Facebook, Amazon, Apple, Netflix, Google e a **FORD**. 
+Nesse sentido, queremos lhe apresentar uma das ferramentas mais utilizadas. E iremos aqui tornar a experiência inicial mais fácil para você.
+
+## Problema
+
+É comum dificuldades surgirem nos primeiros usos de qualquer plataforma, até avançar na curva de aprendizagem da mesma.
+Este projeto fornece exemplo de soluções dos desafios iniciais, e que com estes exemplos, esperamos que você entenda como funciona o **Uri**.
+
+## Solução
 
 1. Apresentação da plataforma
 2. Entrada/Saída
 3. Respostas do juiz
 4. Fazer um exemplo com cada entrada possível da plataforma.
 
-**Próximos passos**
+## Próximos passos
 
 Treinar, treinar e treinar.
 
-**Entradas e Saídas**
+## Entradas e Saídas
 
 Existem alguns tipos de entradas e saídas nos problemas do URI, as mais comuns são:
 
-**Entradas**
+## Entradas
 
-- **Casos de testes individuais:**
+- ### Casos de testes individuais:
   - Cada caso de teste é armazenado em um único **arquivo**.
+    ![](images/1.png)
+    Três casos de testes em arquivos independentes e suas saídas esperadas.
 
-![](RackMultipart20211019-4-rfvmz6_html_1288c9b1051aa06b.png)
-
-3 casos de testes em arquivos independentes e suas saídas esperadas.
-
-- **Múltiplos casos de testes:**
+- ### Múltiplos casos de testes: (Ex.: Desafio 1010)
   - Em um **arquivo** , pode haver mais de um caso de teste.
+    Os múltiplos casos de teste terminam quando é fornecido o valor 0.
+    ![](images/2.png)
+    Três casos de teste em um único arquivo, com uma única saída.
 
-![](RackMultipart20211019-4-rfvmz6_html_bd09f9097c65af3b.png)
+## ratando entradas/saídas
 
-3 casos de teste, com suas respectivas saídas. Os múltiplos casos de teste terminam quando é fornecido o valor 0.
-
-Além disso, há diferentes formas de tratar as entradas/saídas nesse caso de múltiplos casos de teste, sendo elas:
+Há diferentes formas de tratar as entradas/saídas em múltiplos casos de teste, sendo elas:
 
 - O **número** de casos de teste pode ser fornecido na **primeira linha da entrada** ;
 - Os casos de teste podem ser **terminados** com valores especiais, tais como **0** ou **\*** , não limitado a eles;
@@ -47,50 +60,55 @@ Além disso, há diferentes formas de tratar as entradas/saídas nesse caso de m
 
 Exemplo de leitura em um caso de teste que termina em **EOF** :
 
+```
 _while True:_
+  _try:_
+    _...lógica..._
+  _except EOFError:_
+    _break_
+```
 
-_try:_
-
-_...lógica..._
-
-_except EOFError:_
-
-_break_
-
-**Saídas**
+## Saídas
 
 As saídas geralmente devem estar acompanhadas de **uma** quebra de linha, exemplo:
+![](images/3.png)
 
-![](RackMultipart20211019-4-rfvmz6_html_5cd13a6af0ab37fa.png) ![](RackMultipart20211019-4-rfvmz6_html_99ec56d346bea23e.png) ![](RackMultipart20211019-4-rfvmz6_html_e21efc37d6a7c1e5.png)
-
-CORRETOERRADOERRADO
 
 Entretanto, no enunciado do problema estará especificado a forma correta, caso contrário, tenha como _default_ este exemplo.
 
-**Arquivos de entrada e saída**
+## Arquivos de entrada e saída
 
-Apesar de lermos pela entrada padrão (ex: _value = input()_, _print(f&quot;X = {a + b}&quot;)_), por trás, na verdade, nós estaremos lendo e escrevendo em **arquivos** , por isso, também devemos ter um cuidado no trato dessas informações, exemplos:
+Apesar de lermos pela entrada padrão
+ex: 
+```
+  a = input()
+  b = int(input())
+  c = float(input())
+```
+por trás, na verdade, nós estaremos lendo e escrevendo em **arquivos** , por isso, também devemos ter um cuidado no trato dessas informações, exemplos:
 
-No **Python** , quando lemos com _input()_, o mesmo fará a leitura da linha inteira. Dito isso, em um caso de teste de exemplo como:
+No **Python** , quando lemos com **_input()_**, o mesmo fará a leitura da linha inteira. Dito isso, em um caso de teste de exemplo como:
 
-![](RackMultipart20211019-4-rfvmz6_html_9973c440d22c431b.png)
+![](images/4.png)
 
-No primeiro _input()_ será lido uma **string** com **&quot;10 7&quot;** , no segundo **&quot;C 1 10&quot;** e assim sucessivamente. Visto isso, é nítido que é necessário um tratamento desses dados. _(conversões, atribuições, etc…)._
+No primeiro _input()_ será lido uma **string** com **&quot;10 7&quot;**, no segundo **&quot;C 1 10&quot;** e assim sucessivamente. Visto isso, é nítido que é necessário um tratamento desses dados. _(conversões, atribuições, etc…)._
 
-**Como o juiz avalia**
+## Como o juiz avalia
 
 O seu código-fonte será enviado e o sistema executará todos os casos de teste disponíveis para aquele problema e sua saída deve ser **IGUAL** a saída esperada.
 
-Além disso, há algumas **restrições** que devem ser levadas em consideração, como o **tempo de execução e o limite de memória usado.** No exemplo abaixo o algoritmo deve passar nos casos de teste com um tempo de execução máximo de **2 segundos** e uso máximo de memória em **200MB.** Cada linguagem tem sua particularidade, então algumas possuem um tempo limite diferente, no python, por exemplo, é de **1 segundo a mais** , ou seja, no problema abaixo o tempo limite para python seria de **3 segundos**.
+Além disso, há algumas **restrições** que devem ser levadas em consideração, como o **tempo de execução e o limite de memória usado.**
 
-![](RackMultipart20211019-4-rfvmz6_html_e1c0cc17098928ce.png)
+No exemplo abaixo o algoritmo deve passar nos casos de teste com um tempo de execução máximo de **2 segundos** e uso máximo de memória em **200MB.**
 
-![](RackMultipart20211019-4-rfvmz6_html_1298ee9f075e6439.png)
+Cada linguagem tem sua particularidade, então algumas possuem um tempo limite diferente, no python, por exemplo, é de **1 segundo a mais** , ou seja, no problema abaixo o tempo limite para python seria de **3 segundos**.
 
-Leitura obrigatória:
+![](images/5.png)
 
-[https://www.urionlinejudge.com.br/judge/pt/faqs/about/judge](https://www.urionlinejudge.com.br/judge/pt/faqs/about/judge)
+## Leitura auxiliar:
 
-[https://www.urionlinejudge.com.br/judge/pt/faqs/about/problems](https://www.urionlinejudge.com.br/judge/pt/faqs/about/problems)
+📌 [FAQS JUDGE](https://www.urionlinejudge.com.br/judge/pt/faqs/about/judge)
 
-[https://www.urionlinejudge.com.br/judge/pt/faqs/about/examples](https://www.urionlinejudge.com.br/judge/pt/faqs/about/examples)
+📌 [FAQS PROBLEMS](https://www.urionlinejudge.com.br/judge/pt/faqs/about/problems)
+
+📌 [FAQS EXAMPLES](https://www.urionlinejudge.com.br/judge/pt/faqs/about/examples)
