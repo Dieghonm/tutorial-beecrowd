@@ -54,7 +54,7 @@ Existem alguns tipos de entradas e saídas nos problemas do URI, as mais comuns 
     ![](images/2.png)
     Três casos de teste em um único arquivo, com uma única saída.
 
-## ratando entradas/saídas
+## Tratando entradas/saídas
 
 Há diferentes formas de tratar as entradas/saídas em múltiplos casos de teste, sendo elas:
 
