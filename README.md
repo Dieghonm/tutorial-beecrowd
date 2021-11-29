@@ -1,13 +1,11 @@
-# Boas vindas ao repositório tutorial para a plataforma URI!
+# Boas vindas ao repositório tutorial para a plataforma BeeCrowd!
 
-Este repositório contém a solução dos exercícios tutoriais de nivel iniciante da plataforma URI.
+Este repositório contém a solução dos exercícios tutoriais de nivel iniciante da plataforma BeeCrowd.
 
 O objetivo é exemplificar como a plataforma trata a entrada e saída de dados.
 
-## Plataforma URI ONLINE JUDGE
-[URI ONLINE JUDGE](https://www.urionlinejudge.com.br/)
-
-Logo menos passará a se chamar **beecrow**, pois agora essa plataforma faz parte de uma empresa independente.
+## Plataforma BeeCrowd
+[BeeCrowd](https://www.beecrowd.com.br/)
 
 ## O que é?
 
@@ -24,7 +22,7 @@ Nesse sentido, queremos lhe apresentar uma das ferramentas mais utilizadas. E ir
 ## Problema
 
 É comum dificuldades surgirem nos primeiros usos de qualquer plataforma, até avançar na curva de aprendizagem da mesma.
-Este projeto fornece exemplo de soluções dos desafios iniciais, e que com estes exemplos, esperamos que você entenda como funciona o **Uri**.
+Este projeto fornece exemplo de soluções dos desafios iniciais, e que com estes exemplos, esperamos que você entenda como funciona o **BeeCrowd**.
 
 ## Solução
 
@@ -39,7 +37,7 @@ Treinar, treinar e treinar.
 
 ## Entradas e Saídas
 
-Existem alguns tipos de entradas e saídas nos problemas do URI, as mais comuns são:
+Existem alguns tipos de entradas e saídas nos problemas do BeeCrowd, as mais comuns são:
 
 ## Entradas
 
@@ -111,8 +109,8 @@ Cada linguagem tem sua particularidade, então algumas possuem um tempo limite d
 
 ## Leitura auxiliar:
 
-📌 [FAQS JUDGE](https://www.urionlinejudge.com.br/judge/pt/faqs/about/judge)
+📌 [FAQS JUDGE](https://www.beecrowd.com.br/judge/pt/faqs/about/judge)
 
-📌 [FAQS PROBLEMS](https://www.urionlinejudge.com.br/judge/pt/faqs/about/problems)
+📌 [FAQS PROBLEMS](https://www.beecrowd.com.br/judge/pt/faqs/about/problems)
 
-📌 [FAQS EXAMPLES](https://www.urionlinejudge.com.br/judge/pt/faqs/about/examples)
+📌 [FAQS EXAMPLES](https://www.beecrowd.com.br/judge/pt/faqs/about/examples)
